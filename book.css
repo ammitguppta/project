@@ -1,0 +1,51 @@
+.logincontainer{
+    margin: 200px;
+    padding: 65px;
+    height: 400px;
+    background: #08c6aa;
+}
+.container {
+
+    width: 100%;
+    height: 250px;
+    position: relative;
+    align-content: center;
+    margin: auto;
+    background:#03a9f5 ;
+}
+#number, #verificationcode {
+    width: calc(50% - 6px);
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    outline: none;
+}
+#recaptcha-container {
+    margin-bottom: 20px;
+}
+#send, #verify {
+    margin: auto;
+    width: 50%;
+    height: 40px;
+    background-color: rgb(9, 189, 254);
+    color: black;
+
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}
+.p-conf, .n-conf {
+    width: calc(100% - 22px);
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 8px 10px;
+    margin: 4px 0px;
+    background-color: rgba(0, 249, 12, 0.5);
+    display: none;
+}
+.n-conf {
+    border-color: red;
+    background-color: rgba(255, 0, 4, 0.5);
+}

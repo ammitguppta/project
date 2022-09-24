@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="book.css">
   </head>
   <body>
+    <div class="logincontainer">
     <div class="container">
 		<div id="sender">
-			<input type="text" id="number" placeholder="+923...">
+			<input type="text" id="number" placeholder="Enter you Mobile no....+91">
 			<div id="recaptcha-container"></div>
-			<input type="button" id="send" value="Send" onClick="phoneAuth()">
+			<input class="bt1" type="button" id="send" value="Send" onClick="phoneAuth()">
 		</div>
 		<div id="verifier" style="display: none">
 			<input type="text" id="verificationcode" placeholder="OTP Code">
@@ -21,6 +22,7 @@
 			<div class="n-conf">OTP ERROR</div>
 		</div>
 	</div>
+</div>
     <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
     <script>
        
